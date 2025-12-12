@@ -1,0 +1,25 @@
+{
+  "name": "todox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm instal --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuocTien159/oquctine_todoX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuocTien159/oquctine_todoX/issues"
+  },
+  "homepage": "https://github.com/QuocTien159/oquctine_todoX#readme",
+  "dependencies": {
+    "backend": "^0.0.0",
+    "prefix": "^1.0.0"
+  }
+}
