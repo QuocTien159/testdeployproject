@@ -87,7 +87,6 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen w-full bg-white relative overflow-hidden">
-      <h1>Xin chào mng nhé</h1>
       {/* Grid + Left & Right Gradient Glow */}
       <div
         className="absolute inset-0 z-0"
